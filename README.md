@@ -35,7 +35,6 @@ Expiry: 12/34
 CVV: 123
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Information about this project:
 1.It uses jwt based authentication for login.
 2.There are totally three microservices available in this. 1.AuthService 2.OrderMicroservice 2.PaymentMicroservice.
