@@ -14,7 +14,6 @@ OrderMicroservice will be using order_db database.
 
 We use Stripe Elements for payment processing.(it means that the payment gateway is embedded in our webpage itself rather than redirecting customer to stripe's checkout page and doing the payment processing.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
 - [Tech Stack]
@@ -72,7 +71,7 @@ CVV: 123
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ibrahim-git-user/Ecommerce/blob/main/LICENSE) file for details.
 
 ---
 
