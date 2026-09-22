@@ -61,6 +61,10 @@ To locally run this microservice based ecommerce app,
 cd EcommerceMicroservice/   -- in this folder where the docker-compose.yml file exists.
 run "docker compose up --build -d"
 
+If the containers are failing to start, then ensure that you have the proper .env files (updated with keys from stripe) under the folders "PaymentMicroservice" and "ProductCatalog".
+
+Now open the browser with url: http://localhost:5173/ to see the e-commerce app.
+
 
 Note: Use a dummy card to place the order. Stripe is providing some card details for testing. Find the card details below:
 Card number: 4242 4242 4242 4242
