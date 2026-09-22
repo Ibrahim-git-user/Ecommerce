@@ -1,0 +1,23 @@
+auth.User.id
+
+
+{'password': <django.db.models.fields.CharField: password>, 
+'last_login': <django.db.models.fields.DateTimeField: last_login>, 
+'is_superuser': <django.db.models.fields.BooleanField: is_superuser>, 
+'username': <django.db.models.fields.CharField: username>, 
+'first_name': <django.db.models.fields.CharField: first_name>, 
+'last_name': <django.db.models.fields.CharField: last_name>, 
+'email': <django.db.models.fields.EmailField: email>, 
+'is_staff': <django.db.models.fields.BooleanField: is_staff>, 
+'is_active': <django.db.models.fields.BooleanField: is_active>, 
+'date_joined': <django.db.models.fields.DateTimeField: date_joined>}
+
+
+{'groups': RelationInfo(model_field=<django.db.models.fields.related.ManyToManyField: groups>, related_model=<class 'django.contrib.auth.models.Group'>, to_many=True, to_field=None, has_through_model=False, reverse=False), 
+'user_permissions': RelationInfo(model_field=<django.db.models.fields.related.ManyToManyField: user_permissions>, related_model=<class 'django.contrib.auth.models.Permission'>, to_many=True, to_field=None, has_through_model=False, reverse=False)}
+
+
+{'logentry_set': RelationInfo(model_field=None, related_model=<class 'django.contrib.admin.models.LogEntry'>, to_many=True, to_field=None, has_through_model=False, reverse=True)}
+
+
+{'pk': <django.db.models.fields.AutoField: id>, 'id': <django.db.models.fields.AutoField: id>, 'password': <django.db.models.fields.CharField: password>, 'last_login': <django.db.models.fields.DateTimeField: last_login>, 'is_superuser': <django.db.models.fields.BooleanField: is_superuser>, 'username': <django.db.models.fields.CharField: username>, 'first_name': <django.db.models.fields.CharField: first_name>, 'last_name': <django.db.models.fields.CharField: last_name>, 'email': <django.db.models.fields.EmailField: email>, 'is_staff': <django.db.models.fields.BooleanField: is_staff>, 'is_active': <django.db.models.fields.BooleanField: is_active>, 'date_joined': <django.db.models.fields.DateTimeField: date_joined>}
